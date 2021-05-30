@@ -1,6 +1,13 @@
-" Add runtime
+" Configurations
+source ~/.vimrc.d/vimrcs/plugin_manager.vim
+source ~/.vimrc.d/vimrcs/key_mapping.vim
+source ~/.vimrc.d/vimrcs/setting.vim
 
-set rtp+=~/.vimrc.d/runtime
+" Startup Command
+" Allow us to use Ctrl-s and Ctrl-q as keybinds
+silent !stty -ixon
 
-runtime __plugin_manager.vim
-runtime __key_binding.vim
+" Leave Command
+" Restore default behaviour when leaving Vim.
+autocmd VimLeave * silent !stty ixon
+
