@@ -14,7 +14,10 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 Plugin 'flazz/vim-colorschemes'
-
+Plugin 'wlemuel/vim-tldr'
+Plugin 'junegunn/fzf'
+Plugin 'junegunn/fzf.vim'
+Plugin 'voldikss/vim-floaterm'
 
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
