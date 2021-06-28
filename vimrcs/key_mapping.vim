@@ -15,6 +15,10 @@
 
 " Key no-recursive mapping
 " nnoremap - Display normal mode maps
+nnoremap <leader>n :NERDTreeFocus<cr>
+nnoremap <C-n> :NERDTree<cr>
+nnoremap <C-t> :NERDTreeToggle<cr>
+nnoremap <C-f> :Files<cr>
 nnoremap <silent><c-s> :<c-u>update<cr>
 " inoremap - Display insert mode maps
 inoremap <silent><c-s> <c-o>:update<cr>

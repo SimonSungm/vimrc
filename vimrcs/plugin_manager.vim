@@ -18,11 +18,15 @@ Plugin 'flazz/vim-colorschemes'
 " Tools
 Plugin 'wlemuel/vim-tldr'
 Plugin 'junegunn/fzf'
-Plugin 'junegunn/fzf.vim'
+Plugin 'junegunn/fzf.vim', { 'do': { -> fzf#install() } }
 Plugin 'voldikss/vim-floaterm'
 Plugin 'chazy/cscope_maps'
 Plugin 'szw/vim-tags'
 Plugin 'zxqfl/tabnine-vim'
+Plugin 'tpope/vim-fugitive'	"git plugin
+Plugin 'tpope/vim-surround' "parenttheses
+Plugin 'scrooloose/nerdtree' "explorer
+Plugin 'scrooloose/syntastic' "syntax
 
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
