@@ -11,5 +11,11 @@ set number
 set tabstop=4
 
 
+" command
+:command Bterm :below term
+:command Cterm :term ++curwin
+:command Vterm :vert term
+:command Vrterm :rightb vert term
+
 " NerdTree
 "autocmd VimEnter * NERDTree | wincmd p
