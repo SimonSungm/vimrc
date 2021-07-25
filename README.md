@@ -6,6 +6,6 @@ It is my personal vim setting. It use Vundle to manage the plugins.
 ```sh
 git clone https://github.com/SimonSungm/vimrc.git ~/.vimrc.d
 cd ~/.vimrc.d
-./install
+./install.sh
 ```
 
