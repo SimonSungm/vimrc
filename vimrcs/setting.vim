@@ -2,6 +2,8 @@
 let g:airline_theme='luna'
 syntax on
 colorscheme molokai
+set encoding=UTF-8
+
 
 " Line number
 set number
