@@ -28,6 +28,7 @@ Plugin 'tpope/vim-surround' "parenttheses
 Plugin 'scrooloose/nerdtree' "explorer
 Plugin 'scrooloose/syntastic' "syntax
 Plugin 'ryanoasis/vim-devicons' "Icons
+Plugin 'mg979/vim-visual-multi'
 
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
